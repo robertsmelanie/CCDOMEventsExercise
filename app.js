@@ -48,7 +48,7 @@ darkMode.addEventListener('click', () => {
     darkMode.classList.toggle('dark-mode');
 });
 */
-cost star = document.querySelector('*');
+const star = document.querySelector('*');
 darkMode.addEventListener('click', () => {
     star.classList.toggle('dar-mode');    
 });
@@ -84,10 +84,4 @@ times.addEventListener('click', () => {
         times.disabled = true;
     }
 });
-
-
-
-
-
-
-
+*/
